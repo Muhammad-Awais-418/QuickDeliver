@@ -1,0 +1,2 @@
+rootProject.name='QuickDeliver'
+include ':app'

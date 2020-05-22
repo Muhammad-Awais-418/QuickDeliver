@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">QuickDeliver</string>
+
+
+
+    <string name="navHome">Home</string>
+    <string name="navProf">Profile</string>
+    <string name="Reload">Reload</string>
+
+</resources>
