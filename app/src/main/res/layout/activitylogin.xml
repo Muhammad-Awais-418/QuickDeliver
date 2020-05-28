@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.Login"
+    android:background="@drawable/gradient2"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_above="@+id/linear"
+        android:layout_marginBottom="80dp"
+
+        >
+        <ImageView
+            android:id="@+id/head"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:background="@drawable/error_screen"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            /></LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/signin1"
+        android:layout_marginBottom="80dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/email1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white">
+
+            <EditText
+                android:id="@+id/emaill"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="46dp"
+                android:layout_marginRight="46dp"
+                android:background="#0000"
+                android:drawableLeft="@drawable/ic_account_box_black_24dp"
+                android:drawablePadding="12dp"
+                android:gravity="left"
+                android:hint="Email"
+                android:lines="1"
+                android:padding="14dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/divider"
+                android:textSize="18sp"
+
+
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="56dp"
+            android:layout_marginRight="56dp"
+            android:background="@color/accent" />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white">
+
+
+            <EditText
+                android:id="@+id/passwordd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="46dp"
+                android:layout_marginRight="46dp"
+                android:background="#0000"
+                android:drawableLeft="@drawable/pass"
+                android:drawablePadding="16dp"
+                android:hint="Password"
+                android:inputType="textPassword"
+
+                android:padding="14dp"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+
+
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="56dp"
+            android:layout_marginRight="56dp"
+            android:background="@color/accent" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_above="@+id/signinline"
+        android:id="@+id/signin1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient2"
+        android:text="Sign in"
+        android:textSize="18sp"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:padding="10dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="26dp"
+        android:elevation="1.5dp" />
+
+
+
+
+    <LinearLayout
+        android:id="@+id/signinline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:layout_marginBottom="35dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Not a Member?"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:layout_marginRight="3dp"
+
+            />
+
+        <Button
+
+            android:id="@+id/btn_signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:text="@string/SignUp"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:layout_marginLeft="3dp"
+
+            />
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
+
+
+

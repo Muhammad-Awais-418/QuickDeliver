@@ -41,16 +41,6 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
         //Calling Toolbar initialization Function
         initToolbar();
 
-        try {
-            Intent i = getIntent();
-            int code = i.getExtras().getInt("code");
-            if (code == 5) {
-                Toast.makeText(getApplicationContext(), "Product Added to Cart", Toast.LENGTH_SHORT).show();
-            }
-        } catch (NullPointerException e) {
-            e.printStackTrace();
-        }
-
 
         //Adding a bottom navigation bar
         BottomNavigationView navView = findViewById(R.id.nav_view);

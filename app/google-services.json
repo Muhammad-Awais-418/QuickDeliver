@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "45784698247",
+    "firebase_url": "https://quickdeliver-a5014.firebaseio.com",
+    "project_id": "quickdeliver-a5014",
+    "storage_bucket": "quickdeliver-a5014.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:45784698247:android:0fe881347c2919fdf4d722",
+        "android_client_info": {
+          "package_name": "com.xyz.quickdeliver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "45784698247-tkrr0fk9106ksibc9il1sg1fr67oflco.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.xyz.quickdeliver",
+            "certificate_hash": "5b4f00a272ddba0ddbe4324b34431f97b2c38a54"
+          }
+        },
+        {
+          "client_id": "45784698247-qv5p4fbpl8rgm0q3nv93h7ku70gkacci.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtNp3FqlgSXFmPqYIIMXZ1gCcd4fv4lHI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "45784698247-qv5p4fbpl8rgm0q3nv93h7ku70gkacci.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
